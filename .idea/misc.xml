@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/add_btn.xml" value="0.107" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/back.xml" value="0.119" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/back_frame.xml" value="0.119" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/back_slide.xml" value="0.1015" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/background_dialog.xml" value="0.113" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/background_edittext.xml" value="0.1105" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/background_food1.xml" value="0.1015" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/button_animation.xml" value="0.1015" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/favorite_25.xml" value="0.113" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/full_favorite.xml" value="0.1085" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.107" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/ic_star.xml" value="0.107" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/ic_sub.xml" value="0.107" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/rounded_shape.xml" value="0.1085" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/drawable/selector_wishlist.xml" value="0.1085" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout-ldrtl/activity_forget_password.xml" value="0.14" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout-ldrtl/activity_show_details.xml" value="0.15" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout-ldrtl/food_holder.xml" value="0.15" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout-ldrtl/fragment_home.xml" value="0.12297297297297298" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout-ldrtl/fragment_profile.xml" value="0.1222972972972973" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/activity_forget_password.xml" value="0.12297297297297298" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/activity_home_page.xml" value="0.13" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/activity_login_in.xml" value="0.12297297297297298" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/activity_onboarding_screen.xml" value="0.1" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/activity_order_card.xml" value="0.12297297297297298" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/activity_show_details.xml" value="0.12" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/category_holder.xml" value="0.25" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/custom_toast.xml" value="0.12297297297297298" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/fav_item.xml" value="0.12297297297297298" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/food_holder.xml" value="0.14" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/fragment_favorite.xml" value="0.1" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/fragment_home.xml" value="0.15" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/fragment_profile.xml" value="0.12297297297297298" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/fragment_setting.xml" value="0.12297297297297298" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/fragment_shop.xml" value="0.12297297297297298" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/fragment_sign_in.xml" value="0.13779830638953042" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/fragment_sing_up.xml" value="0.18" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/internet_cutom.xml" value="0.15" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/progress_custom.xml" value="0.12297297297297298" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/layout/slide_layout.xml" value="0.1" />
+        <entry key="..\:/project_android/Foodie/app/src/main/res/menu/test.xml" value="0.10555555555555556" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

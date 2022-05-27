@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Foodie</string>
+    <string name="or">OR</string>
+    <string name="log_in">Log In</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="password">Password</string>
+    <string name="enter_email_or_username">Enter email address</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="singup">SINGUP</string>
+    <string name="login">LOGIN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="categories">Categories</string>
+    <string name="search_for_a_food_item">Search for a food item</string>
+    <string name="choose_the">Choose the</string>
+    <string name="food_you_love">Food you love</string>
+    <string name="home">Home</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+    <string name="text1">We make it simple to find your food you crave for. Enter your address and let us do the rest Copy</string>
+    <string name="description">
+        Its delicious shawarma!
+        it is a crunchy bread stuffed with chicken breast with onions and cucumbers. It has a special taste that is different from other restaurants.
+    </string>
+    <string name="category1">Sandwich</string>
+    <string name="category2">Chicken</string>
+    <string name="category3">Pizza</string>
+    <string name="category4">Drink</string>
+    
+    <string name="description_burger">
+        Shortened in length, the term Burger is used to describe a popular sandwich made from ground meats that are formed into a patty, cooked, and placed between two halves of a bun.
+    </string>
+    <string name="description_Shawarma">
+         Its delicious shawarma!
+        it is a crunchy bread stuffed with chicken breast with onions and cucumbers. It has a special taste that is different from other restaurants.
+    </string>
+    <string name="description_Kebab">
+       shish kebab, dish of small pieces of lamb threaded on a skewer and cooked over an open fire .The name of the dish is derived from the Turkish şiş, meaning a spit or skewer, and kebab, mutton or lamb.
+    </string>
+    <string name="description_Shish_Tawook">
+        In Turkish, the word "shish" means skewer, and "tawook," also spelled taouk, means chicken. Shish tawook is basically Middle Eastern chicken skewers or chicken kebabs, bathed in a bold yogurt-based marinade with citrus, garlic, and lots of warm spices.
+    </string>
+    <string name="description_Golden_Pie">
+        This golden-brown pie has a rich, deep glow and a taste that makes it the darling of the baking industry.
+    </string>
+    <string name="description_Calzone">
+        a baked or fried turnover of pizza dough stuffed with various fillings usually including cheese.
+    </string>
+    <string name="description_pizza">
+        pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.
+    </string>
+    <string name="description_Chicken">
+        Chicken is done cooking when its internal temperature reaches 165ºF (75ºC). 165ºF is the safe internal temperature regardless of cooking method, cooking temperature, and cut of meat—including white meat like chicken breasts and wings, and dark meat like drumsticks and thighs.
+    </string>
+    <string name="description_drink">
+        A drink (or beverage) is a liquid intended for human consumption. In addition to their basic function of satisfying thirst, drinks play important roles in human culture. Common types of drinks include plain drinking water, milk, juice, smoothies and soft drinks.     </string>
+    <string name="description2">food, substance consisting essentially of protein, carbohydrate, fat, and other nutrients used in the body of an organism to sustain growth and vital processes and to furnish energy.</string>
+</resources>

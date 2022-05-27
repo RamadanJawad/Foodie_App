@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    android:id="@+id/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="120dp"
+    android:layout_height="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E5E5E5"
+    android:outlineAmbientShadowColor="@color/buttonColor"
+    android:outlineSpotShadowColor="@color/buttonColor"
+    app:strokeColor="@color/buttonColor"
+    app:cardCornerRadius="23dp"
+    android:layout_marginHorizontal="5dp"
+    app:strokeWidth="1.5dp"
+    app:cardElevation="15sp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/category_image"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            tools:src="@drawable/ic_chicken"
+            android:tint="@color/buttonColor">
+        </ImageView>
+        <TextView
+            android:id="@+id/category_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken"
+            android:textColor="@color/black">
+        </TextView>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

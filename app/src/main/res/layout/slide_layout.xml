@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/splash1">
+    </ImageView>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/cairo_medium"
+        android:text="Hello"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img">
+    </TextView>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/_15sdp"
+        android:fontFamily="@font/cairo_medium"
+        android:text="@string/text1"
+        android:textAlignment="center"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_16ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv1">
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

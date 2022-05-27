@@ -1,0 +1,24 @@
+<!-- bottom_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        />
+    <item
+        android:id="@+id/shop"
+        android:icon="@drawable/shopping"
+        android:title="Order"
+        />
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/heart"
+        android:title="Favorites"
+        />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/user"
+        android:title="Profile"
+        />
+</menu>

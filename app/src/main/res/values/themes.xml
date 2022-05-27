@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FoodDelivery" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/buttonColor</item>
+        <item name="colorPrimaryVariant">@color/buttonColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/buttonColor</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="TabLayout" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">12sp</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="roundImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="android:bottomRightRadius">@dimen/_20sdp</item>
+        <item name="android:bottomLeftRadius">@dimen/_20sdp</item>
+        <item name="color">@color/white</item>
+    </style>
+</resources>
