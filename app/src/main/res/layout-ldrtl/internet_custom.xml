@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:gravity="center"
+        android:padding="@dimen/_25sdp"
+        android:background="@drawable/background_dialog">
+        <ImageView
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_180sdp"
+            android:src="@drawable/nointernet"
+            android:layout_marginTop="-30dp">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تأكد من تشغيل الواي فاي , ثم حاول مرة اخرى"
+            android:textAlignment="center"
+            android:layout_marginTop="-30dp"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="@font/cairo_medium"
+            android:textStyle="bold">
+        </TextView>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_retry"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="wrap_content"
+            android:text="أعد المحاولة"
+            android:textSize="@dimen/_15ssp"
+            android:textAllCaps="false"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:cornerRadius="@dimen/_5sdp"
+            android:padding="@dimen/_10sdp">
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+</RelativeLayout>
