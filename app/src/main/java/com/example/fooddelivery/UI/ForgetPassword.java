@@ -1,26 +1,20 @@
 package com.example.fooddelivery.UI;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Dialog;
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.util.Patterns;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.example.fooddelivery.R;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.android.material.button.MaterialButton;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -39,7 +33,7 @@ public class ForgetPassword extends AppCompatActivity {
 
         if(!isConnected()){
             dialog=new Dialog(this);
-            dialog.setContentView(R.layout.internet_cutom);
+            dialog.setContentView(R.layout.internet_custom);
             dialog.getWindow().setBackgroundDrawableResource(
                     android.R.color.transparent);
             btn_retry=dialog.findViewById(R.id.btn_retry);

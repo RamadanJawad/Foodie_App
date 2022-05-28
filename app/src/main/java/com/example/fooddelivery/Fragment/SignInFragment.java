@@ -1,9 +1,7 @@
 package com.example.fooddelivery.Fragment;
 
-import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
@@ -12,32 +10,24 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
 import android.provider.Settings;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.fooddelivery.UI.ForgetPassword;
 import com.example.fooddelivery.R;
 import com.example.fooddelivery.UI.HomePage;
-import com.example.fooddelivery.UI.LoginIn;
-import com.example.fooddelivery.UI.MainActivity;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.button.MaterialButton;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 public class SignInFragment extends Fragment {
 
@@ -104,7 +94,7 @@ public class SignInFragment extends Fragment {
                             if(!isConnected()){
                                 dialog=new ProgressDialog(getContext());
                                 dialog.show();
-                                dialog.setContentView(R.layout.internet_cutom);
+                                dialog.setContentView(R.layout.internet_custom);
                                 dialog.getWindow().setBackgroundDrawableResource(
                                         android.R.color.transparent);
                                 retry=dialog.findViewById(R.id.btn_retry);
