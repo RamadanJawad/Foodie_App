@@ -26,7 +26,6 @@ import com.example.fooddelivery.Adapter.FoodCategoryAdapter;
 import com.example.fooddelivery.Fragment.FavoriteFragment;
 import com.example.fooddelivery.Fragment.HomeFragment;
 import com.example.fooddelivery.Fragment.ProfileFragment;
-import com.example.fooddelivery.Fragment.SettingFragment;
 import com.example.fooddelivery.Fragment.ShopFragment;
 import com.example.fooddelivery.R;
 import com.example.fooddelivery.model.FoodCategory;
